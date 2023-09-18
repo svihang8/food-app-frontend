@@ -3,7 +3,7 @@ import '../Styles/allplans.css';
 import Tick from '../Images/check-mark.png'
 import axios from 'axios';
 import { Link } from 'react-router-dom';
-
+axios.defaults.baseURL = 'https://autumn-grass-7257.fly.dev';
 function AllPlans() {
     const [arr, arrset] = useState([]);
     useEffect(async () => {

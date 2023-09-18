@@ -2,6 +2,7 @@ import React, { useState , useEffect,useContext} from 'react';
 import '../Styles/profile.css';
 import { useAuth } from '../Context/AuthProvider';
 import axios from 'axios';
+axios.defaults.baseURL = 'https://autumn-grass-7257.fly.dev';
 
 function Profile() {
 

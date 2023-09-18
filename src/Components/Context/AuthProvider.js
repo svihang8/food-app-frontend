@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useContext } from 'react';
 import axios from 'axios';
 import { useHistory } from 'react-router';
+axios.defaults.baseURL = 'https://autumn-grass-7257.fly.dev'
 
 export const AuthContext = React.createContext();
 //custom hook that allows components to access context data
