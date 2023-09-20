@@ -1,7 +1,7 @@
 # Restaurant Ordering Application - Frontend
 
 Restaurant ordering application is a CRUD web application for restaurant management of customers, employees, and orders. This is repository for the frontend of the application.
-
+Currently deployed on https://main.d225t7yraqy8od.amplifyapp.com/
 Backend code is in repository https://github.com/svihang8/food-app-backend
 
 ## Current Deployment
